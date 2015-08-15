@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Kamal Micheal"]
   spec.email         = ["kimomicho@hotmail.com"]
 
-  spec.summary       = "This gem is used to convert Gregorian calendar to Coptic calendar."
+  spec.summary       = "This gem is used to convert Gregorian calendar to Coptic calendar. It also calculate Easter Orthodox date."
   spec.homepage      = "https://github.com/kimomicho/coptic_date_gem"
   spec.license       = "MIT"
 
