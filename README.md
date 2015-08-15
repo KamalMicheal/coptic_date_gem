@@ -23,7 +23,7 @@ Or install it yourself as:
 ## Usage
 ```
 	requested_date = Time.new(2015,9,8)
-    CopticDate::get_coptic_year(requested_date) #=1731
+    CopticDate::get_coptic_year(requested_date) #1731
     CopticDate::get_coptic_month(requested_date) #13
     CopticDate::get_coptic_day(requested_date) #3
 ```
