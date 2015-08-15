@@ -1,7 +1,9 @@
+# encoding: UTF-8
 require "coptic_date/version"
 
 module CopticDate
-  def calculate_date_base(greg_date)
+  def self.calculate_remainder(greg_date)
+    # this may look wierd, however this is how calculations are made
     greg_date_day = greg_date.day
     greg_date_month = greg_date.month
     greg_date_year = greg_date.year
@@ -19,11 +21,7 @@ module CopticDate
     intE = 2 - intC + intD
     intF = ((intB + 4716) * 36525 / 100).to_i
     intG = ((intA + 1) * 306001 / 10000).to_i
-    return (greg_date_day + intG + intF + intE - 1826553)
-  end
-
-  def calculate_remainder(greg_date)
-    base_date = calculate_date_base(greg_date)
+    base_date = (greg_date_day + intG + intF + intE - 1826553)
     c_year = base_date.div 365.25
     #puts "base_date #{base_date}"
     return ((base_date % 365.25) / 365.25) * 12.175
