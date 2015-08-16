@@ -1,6 +1,6 @@
 # CopticDate
 
-CopticDate is used to convert Georgian date to Coptic Date. It is also used to calculate Easter date for Orthodox.
+CopticDate is used to convert Gregorian date to Coptic Date. It is also used to calculate Easter date for Orthodox.
 ## Installation
 
 Add this line to your application's Gemfile:
