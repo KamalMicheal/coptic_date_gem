@@ -37,6 +37,12 @@ Or install it yourself as:
 
 	### Jonah Fast Date
 	CopticVariableFeasts::jonah_fast_start_date(2014) # 2014.2.10
+
+	### Messengers Fast Date
+	CopticVariableFeasts::messengers_fast_start_date(2014) # 2014.6.9
+
+	### Messengers Feast Date
+	CopticVariableFeasts::messengers_feast_date(2014) # 2014.7.12
 ```
 
 
