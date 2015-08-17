@@ -33,7 +33,10 @@ Or install it yourself as:
 ## Calculate Variable Feast Dates
 ```
 	### Big Fast Date
-	CopticVariableFeasts::big_feast_start_date(2014) # 2014,2,24
+	CopticVariableFeasts::big_fast_start_date(2014) # 2014,2,24
+
+	### Jonah Fast Date
+	CopticVariableFeasts::jonah_fast_start_date(2014) # 2014.2.10
 ```
 
 
