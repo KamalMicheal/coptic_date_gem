@@ -30,6 +30,12 @@ Or install it yourself as:
 	CopticEaster::calculate_easter_date(2015) # 2015-04-12
 ```
 
+## Calculate Variable Feast Dates
+```
+	### Big Fast Date
+	CopticVariableFeasts::big_feast_start_date(2014) # 2014,2,24
+```
+
 
 ## License
 
