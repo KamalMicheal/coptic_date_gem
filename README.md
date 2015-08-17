@@ -18,7 +18,7 @@ Or install it yourself as:
     $ gem install coptic_date
 
 ## Date Converter
-```
+```ruby
 	requested_date = Time.new(2015,9,8)
     CopticDate::get_coptic_year(requested_date) #1731
     CopticDate::get_coptic_month(requested_date) #13
@@ -26,12 +26,12 @@ Or install it yourself as:
 ```
 
 ## Calculate Easter Date
-```
+```ruby
 	CopticEaster::calculate_easter_date(2015) # 2015-04-12
 ```
 
 ## Calculate Variable Feast Dates
-```
+```ruby
 	### Big Fast Date
 	CopticVariableFeasts::big_fast_start_date(2014) # 2014,2,24
 
