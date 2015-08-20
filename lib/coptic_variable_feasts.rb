@@ -27,4 +27,14 @@ module CopticVariableFeasts
   def self.messengers_feast_date(greg_year)
     messengers_fast_start_date(greg_year) + messengers_fast_duration(greg_year)
   end
+
+  def self.thomas_sunday(greg_year)
+    CopticEaster::calculate_easter_date(greg_year) + 7
+  end
+
+  def self.ascension_feast(greg_year)
+    easter_date = CopticEaster::calculate_easter_date(greg_year)
+    return easter_date + 39
+  end
+
 end

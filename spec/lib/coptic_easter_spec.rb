@@ -5,6 +5,14 @@ describe CopticEaster do
     expect(CopticEaster::calculate_easter_date(1980)).to eq(Date.new(1980,4,6))
   end
 
+  it "Easter for 2007 should be 2007.04.08" do
+    expect(CopticEaster::calculate_easter_date(2007)).to eq(Date.new(2007,4,8))
+  end
+
+  it "Easter for 2010 should be 2010.04.04" do
+    expect(CopticEaster::calculate_easter_date(2010)).to eq(Date.new(2010,4,4))
+  end
+
   it "Easter for 2013 should be 2013.05.05" do
     expect(CopticEaster::calculate_easter_date(2013)).to eq(Date.new(2013,5,5))
   end
