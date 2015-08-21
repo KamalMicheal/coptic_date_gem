@@ -8,7 +8,7 @@ module CopticEaster
 
     easter_date = Date.new(greg_year, 3, 21) + days_to_add
 
-    if easter_date < Date.new(greg_year, 3, 31)
+    if easter_date < Date.new(greg_year, 3, 30)
       easter_date += 34
     else
       easter_date += 4
