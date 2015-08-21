@@ -43,6 +43,12 @@ Or install it yourself as:
 
 	### Messengers Feast Date
 	CopticVariableFeasts::messengers_feast_date(2014) # 2014.7.12
+	
+	### Thomas Sunday
+	CopticVariableFeasts::thomas_sunday(2014) # 2014.04.27
+	
+	### Ascension Feast Date
+	CopticVariableFeasts::ascension_feast(2014) # 2014.05.29
 ```
 
 
