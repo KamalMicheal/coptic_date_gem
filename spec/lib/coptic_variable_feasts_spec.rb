@@ -78,7 +78,13 @@ describe CopticVariableFeasts do
     expect(CopticVariableFeasts::ascension_feast(2010)).to eq(Date.new(2010,5,13))
   end
 
-
+  it "2014 pentecost feast should return 2014.6.8" do
+    expect(CopticVariableFeasts::pentecost_feast(2014)).to eq(Date.new(2014,6,8))
+  end
+  
+  it "2013 pentecost feast should return 2013.6.23" do
+    expect(CopticVariableFeasts::pentecost_feast(2013)).to eq(Date.new(2013,6,23))
+  end
 
 
 end

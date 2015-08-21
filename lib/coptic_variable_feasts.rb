@@ -36,5 +36,10 @@ module CopticVariableFeasts
     easter_date = CopticEaster::calculate_easter_date(greg_year)
     return easter_date + 39
   end
+  
+  def self.pentecost_feast(greg_year)
+    easter_date = CopticEaster::calculate_easter_date(greg_year)
+    return easter_date + 49
+  end
 
 end

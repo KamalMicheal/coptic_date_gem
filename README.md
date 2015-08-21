@@ -49,6 +49,9 @@ Or install it yourself as:
 	
 	### Ascension Feast Date
 	CopticVariableFeasts::ascension_feast(2014) # 2014.05.29
+	
+	### Pentecost Feast Date
+	CopticVariableFeasts::pentecost_feast(2014) # 2014.06.08
 ```
 
 
