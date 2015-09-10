@@ -66,7 +66,7 @@ module CopticDate
   end
 
   def self.get_coptic_month_name(month_number)
-    case coptic_month_number
+    case month_number
     when 1
       "توت"
     when 2
